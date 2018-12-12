@@ -21,7 +21,7 @@ Drag folder containing main over the Love icon and watch it run!
 
 Controls
     
-    	spacebar or p: Toggle pause
+	spacebar or p: Toggle pause
 	
 	left arrow or a: Remove last dot
 	right arrow or d: Create new dot(Works while paused)
