@@ -16,8 +16,8 @@ function love.load()
    love.graphics.setBackgroundColor(255, 255, 255)
    
    -- Update delay settings
-   delay = false  -- To use or not to use the delay
-   delay_length = .5  -- Time inbetween updates(seconds)
+   delay = true  -- To use or not to use the delay
+   delay_length = .25  -- Time inbetween updates(seconds)
    
    -- Pivot point settings - (x, y pairs of the points to go between)
    pivot_points = {{400, 100}, {200, 450}, {600, 450}}  -- Triangle
@@ -45,6 +45,9 @@ function love.load()
    
    
    -- inits
+   love.window.setTitle("Chaos Game")
+   love.window.setIcon(love.image.newImageData("icon.jpg"))
+   
    math.randomseed(os.time())
    
    dots = {rule_initial_point()}
