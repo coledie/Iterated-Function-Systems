@@ -3,7 +3,9 @@ From a starting position, randomly choose a point from a set and move towards it
 
 ![Generated sierpinski triange](img/Chaos-Game_Triangle.PNG)
 
-![Generated sierpinski triange](img/Chaos-Game_Snowflake.PNG)
+![Generated snowflake](img/Chaos-Game_Snowflake.PNG)
+
+![Barnsley Fern](img/Chaos-Game_Fern.PNG)
 
 ## Requirements
 Lua 5
