@@ -49,6 +49,10 @@ function love.load()
    love.window.setTitle("Chaos Game")
    love.window.setIcon(love.image.newImageData("img/icon.jpg"))
    
+   for i, c in ipairs(dot_color) do
+      if c > 1 then dot_color[i] = c / 255 end
+   end
+   
    math.randomseed(os.time())
    
    dots = {rule_initial_point()}
