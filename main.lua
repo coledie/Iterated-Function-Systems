@@ -46,7 +46,7 @@ function love.load()
    
    -- inits
    love.window.setTitle("Chaos Game")
-   love.window.setIcon(love.image.newImageData("icon.jpg"))
+   love.window.setIcon(love.image.newImageData("img/icon.jpg"))
    
    math.randomseed(os.time())
    
