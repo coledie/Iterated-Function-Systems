@@ -11,9 +11,10 @@ function love.load()
    -- Settings
    -- Look settings
    dot_size = 3  -- Size of dots plotted
-  
+   
+   -- Colors use 0-1 range
    dot_color = {0, 0, 0, .4}  -- r, g, b, opacity
-   love.graphics.setBackgroundColor(255, 255, 255)
+   love.graphics.setBackgroundColor(1, 1, 1)
    
    -- Update delay settings
    delay = true  -- To use or not to use the delay
