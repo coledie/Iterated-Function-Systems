@@ -12,7 +12,7 @@ function love.load()
    -- Look settings
    dot_size = 3  -- Size of dots plotted
   
-   dot_color = {0, 0, 0}
+   dot_color = {0, 0, 0, .4}  -- r, g, b, opacity
    love.graphics.setBackgroundColor(255, 255, 255)
    
    -- Update delay settings
@@ -27,7 +27,7 @@ function love.load()
    
    -- Rule settings (0 = default)
    rule_set = {rule_choose_move_towards_selection = 0,
-			   rule_choose_position_selection = 1,
+			   rule_choose_position_selection = 0,
 			   rule_initial_point_selection = 0
    }
    
