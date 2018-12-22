@@ -5,8 +5,6 @@ From a starting position, randomly choose a point from a set and move towards it
 
 ![Generated snowflake](img/Chaos-Game_Snowflake.PNG)
 
-![Barnsley Fern](img/Chaos-Game_Fern.PNG)
-
 ## Requirements
 Lua 5
 
