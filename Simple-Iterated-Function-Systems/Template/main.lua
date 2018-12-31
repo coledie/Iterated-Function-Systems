@@ -59,7 +59,7 @@ function love.update()
    --------------------------------------------------
    
    if not paused and (not delay or love.timer.getTime() - last_time > delay_length) then
-	  dots[#dots+1] = get_next_dot()  -- Generate new dot
+	  get_next_dot()  -- Generate new dot
       
 	  last_time = love.timer.getTime()  -- Log time for delay checking
    end
