@@ -1,5 +1,5 @@
 # Simple Iterated Function System Illustrator Template
-Some simple iterated function systems template to create unique iterated function systems quickly.
+A template to create unique iterated function systems quickly.
 
 
 ## Requirements
