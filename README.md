@@ -1,5 +1,5 @@
 # Iterated Function Systems
-This project is intended to showcase the peculiar behavior of (strange) attractals in fractal geometry in the form of a collection function visualizations for LOVE in lua.
+This project is intended to showcase the peculiar behavior of (strange) attractors in systems portrayed in the form of a collection function visualizations for LOVE in lua.
 
 
 An iterated function system is a function that has its outputs plugged back into it repeatedly. Sometimes these functions have an attractor/repellor that the system evolves towards or away from. When visualized, these attractors can produce some intersting order out of even chaos driven systems.
