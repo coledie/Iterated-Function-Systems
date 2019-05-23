@@ -13,7 +13,7 @@ Can itself be run.
 ![Generated sierpinski triange](_img/Chaos-Game_Triangle.PNG)
 
 
-## Simple Iterated Function System Illustrator
+## Barnsley Fern
 Basic iterated function systems for demonstration, with a template to quickly implement unique algorithms.
 
 Contains a few folders that can be run.
